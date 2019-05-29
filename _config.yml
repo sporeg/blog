@@ -5,14 +5,15 @@
 # Site
 title: SporeG's Blog
 subtitle: 
-description: Storys about a student in HUST
+description: Software Developer @Tencent, B.E & M.E @HUST
 author: SporeG
+email: sporeguo@gmail.com
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://sporeg.cn
+url: //sporeg.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,7 +73,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yilia
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
